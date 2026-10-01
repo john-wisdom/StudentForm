@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT FORM</title>
+    <link rel="stylesheet" href="CSS/materialize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    
+</body>
+        <!-- PERSONAL DATA SECTION -->
+<header class="container">
+    <h1 class=" black purple-text center-align">STUDENT FORM</h1>
+    <p class="bold">
+        1:PERSONAL DATA
+    </p>
+</header>
+<main class="container">
+    <div class="row">
+        <div class="col s12 m3 l3">
+            <input type="text" id="sname">
+            <label for="surname">Surname</label>
+        </div>
+        <div class="col s12 m4 l3">
+            <input type="text" id="fname">
+            <label for="firstname">First Name</label>
+        </div>
+        <div class="col s12 m3 l3">
+            <input type="text" id="oname">
+            <label for="othernames">Other Names</label>
+        
+        </div>
+        <div class="col s12 m3 l3">
+            <div class="file-field input-field">
+                <div class="btn">
+                  <span>passport</span>
+                  <input type="file" id="passport">
+                </div>
+                <div class="file-path-wrapper">
+                  <input class="file-path validate" type="text">
+                </div>
+    </div>
+          </div>
+    <div class=" input-field col s12 m3 l6">  
+        <span>Gender</span>
+            
+        <p>
+            <label>
+            <input name="gender" type="radio" id="gender" value="male"/>
+            <span>Male</span>
+            </label>
+            <label>
+            <input name="gender" type="radio" id="gender" value="female" />
+            <span>Female</span>
+            </label>
+        </p>
+            
+    </div>
+
+    <div class=" input-field col s6 m6 l9">
+        <select class="input-field browser-default" id="lga">
+            <option value="" disabled selected>Marital Status</option>
+            <option value="Married">Married</option>
+            <option value="Single">Single</option>
+            <option value="Other">Other</option>
+            </select>
+    </div>
+    <div class=" input-field col s12 m6 l6" id="state-of-origin">
+        <select class="input-field browser-default">
+        <option value="" disabled selected>State of Origin</option>
+        <option value="benue">Benue</option>
+        <option value="kaduna">kaduna</option>
+    </select>
+</div>
+<div class=" input-field col s12 m6 l6">
+    <select class="input-field browser-default" id="lga">
+        <option value="" disabled selected>LGA</option>
+        <option value="okukpa">Otukpa</option>
+        <option value="Cawo">Cawo</option>
+        </select>
+</div>
+             
+<div class=" input-field col s12 m12 l12">
+    <textarea id="textarea1" class="materialize-textarea"></textarea>
+    <label for="textarea1">Address</label>
+</div>
+</div>
+<div class="row">
+    <div class="col s12 m6 l4">
+        <input type="text" id="Phone1">
+        <label for="surname">Phone No 1</label>
+    </div>
+    <div class="col s12 m6 l4">
+        <input type="text" id="Phone2">
+        <label for="firstname">Phone No 2</label>
+    </div>
+    <div class="col s12 m6 l4">
+        <input type="email" id="email">
+        <label for="email">Email</label>
+    </div>
+</div>
+<!-- NEXT OF KIN SECTION  -->
+    <p class="bold">
+        2:NEXT-OF KIN DETAILS
+    </p>
+        
+<div class="row">
+    <div class="col s12 m3 l3">
+        <input type="text" id="name">
+        <label for="name">Name</label>
+    </div>
+    <div class="col s12 m4 l3">
+        <input type="text" id="Relationshipe">
+        <label for="Relationship">Relationship</label>
+    </div>
+    <div class="col s12 m3 l3">
+        <input type="text" id="phone">
+        <label for="othernames">Phone No</label>
+    
+    </div>
+</div>
+    <!-- TRAINING DETAILS SECTION -->
+    <p class="bold">
+        3:TRAINING DETAILS
+    </p>
+        
+    <div class="row">
+    <div class=" input-field col s12 m9 l9">
+        <textarea id="textarea1" class="materialize-textarea"></textarea>
+        <label for="textarea1">Programme Of Study</label>
+    </div>
+        <div class=" input-field col s12 m3 l3">
+            <input type="text" id="name">
+            <label for="course fee">Course Fee</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 m3 l3">
+            <input type="text" id="startdate">
+            <label for="startdate">Start Date</label>
+        </div>
+        <div class="col s12 m4 l3">
+            <input type="text" id="Relationshipe">
+            <label for="Relationship">End Date</label>
+        </div>
+        <div class="col s12 m3 l3">
+            <input type="text" id="total No.of weeks">
+            <label for="total No.of weeks">Total No.of Weeks</label>
+        </div>
+    </div>
+        <!-- ACKNOWLEDGMENT SECTION-->
+        <p class="bold">
+            4:ACKNOWLEDGMENT
+        </p>
+            
+        <h6 class="ACKNOWLEDGMENT">I hearby acknowledge the information above are accurate, which contain my personal information and details about the training i am about to recieve.
+        By the signing below, i hereby acknowledge that i fully understand the terms and condition of the training and wish to abide by the rules and guidelines of the training centre. The student and the training centre will retain a copy of this registration form.
+        
+        </h6>
+        <div class="row">
+            <div class=" input-field col s12 m9 l9">
+                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                <label for="textarea1">Name</label>
+            </div>
+            <div class=" input-field col s12 m3 l3">
+                <input type="text" id="name">
+                <label for="course fee">Sign</label>
+            </div>
+        </div>
+        <!-- APPROVAL SECTION -->
+        <section class="approval">
+            <p class="bold">
+                5:APPROVAL (Official Use Only)
+            </p>
+            <h6>The Registration form was recieved,reviewed and approved by:</h6>
+            <div class="row">
+                <div class=" input-field col s12 m9 l9">
+                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                    <label for="textarea1">Name & Sign</label>
+                </div>
+                <div class=" input-field col s12 m3 l3">
+                    <input type="text" id="name">
+                    <label for="Date">Date</label>
+                </div>
+            </section>
+</main>
+<footer>
+
+</footer>
+<script src="JS/jquery-4.0.0.js"></script>
+ <script src="JS/materialize.js"></script>
+ <script>
+    $(document).ready(()=>{
+
+    })
+ </script>
+</html>
